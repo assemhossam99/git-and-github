@@ -15,6 +15,10 @@ int subtract(int a, int b) {
 }
 
 int divide(int a, int b) {
+	if (b == 0) {
+		cout << "Invalid division" << endl;
+		return 0;
+	}
 	return a / b;
 }
 
